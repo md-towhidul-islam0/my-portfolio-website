@@ -1,6 +1,7 @@
 import avterimage from "../../data/IMG20240708165513-removebg-preview02.png"
 
 import projectImage01 from "../../data/Screenshot 2026-10-14 211247.png"
+import projectImage02 from "../../data/home.png"
 
 export const portfolioData = {
   personalInfo: {
@@ -121,8 +122,8 @@ export const portfolioData = {
       // ],
     },
     {
-      degree: "Higher Secondary Certificate (HSC) - Science",
-      institution: "Government City College",
+      degree: "Secondary School Certificate (HSC) - Science",
+      institution: "APBn high school",
       period: "2023",
       result: "GPA: 5.00 / 5.00",
       description: "Majored in Higher Mathematics, Physics, Chemistry, and Information & Communication Technology.",
@@ -169,13 +170,26 @@ export const portfolioData = {
       liveUrl: "https://bazar-dor-wheat.vercel.app/",
       githubClientUrl: "https://github.com/md-towhidul-islam0/bazar-dor",
       overview:
-        "PulseHealth simplifies doctor appointments, clinic queue management, and patient record tracking. Built with speed, privacy, and ease of use in mind, it provides real-time schedule booking and doctor availability calendars.",
+       "",
       challenges:
-        "Managing complex real-time appointment slots to avoid double-booking while ensuring fast server-side rendering for doctor profiles. Solved by implementing optimistic UI updates and atomic MongoDB reservation locks.",
+       "",
       improvements: [
-        "Integrate WebRTC for video telemedicine consultations directly in the browser.",
-        "Add automated prescription generation and downloadable PDF summary.",
-        "Implement multi-language support (English & Bengali).",
+      ],
+    },
+    {
+      id: "FitLog",
+      name: "FitLog",
+      shortDescription:
+        "FitLog is a responsive workout planning web app built with Next.js, React, TypeScript, and Tailwind CSS. It allows users to explore exercises, filter by muscle groups, create daily workout plans, save favorite workouts, and view estimated workout statistics through a clean, dark-themed interface. ",
+      image: projectImage02,
+      tags: ["Next.js", "MongoDB", "Tailwind CSS","TypeScript","Better-Auth","Hero Ui"],
+      liveUrl: "https://fitlog-xi-smoky.vercel.app/",
+      githubClientUrl: "https://github.com/md-towhidul-islam0",
+      overview:
+        "",
+      challenges:
+        "",
+      improvements: [
       ],
     },
     // {
